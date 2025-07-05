@@ -4,7 +4,7 @@ import axios from "axios"
 
 // Appi call
 // const Api_Url = "http://localhost:5004/api"
-const Api_Url = "https://my-portfolio-5pkf.onrender.com/api"
+const Api_Url = "https://my-portfolio-8m08.onrender.com/api"
 
 // initial state
 const initialState = {

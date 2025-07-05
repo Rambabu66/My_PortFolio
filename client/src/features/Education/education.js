@@ -3,7 +3,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 // API URL (assuming it's the same base as projects)
-const Api_Url = "https://my-portfolio-5pkf.onrender.com"; // Adjust if your education API is different
+const Api_Url = "https://my-portfolio-8m08.onrender.com/api"; // Adjust if your education API is different
 
 // Initial state
 const initialState = {

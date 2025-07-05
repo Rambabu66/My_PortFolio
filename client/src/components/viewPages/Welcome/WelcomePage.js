@@ -10,7 +10,7 @@ const WelcomePage = ({ onEnter }) => {
         <Row className="justify-content-center text-center">
           <Col md={8}>
             <div className="welcome-content">
-              <FaPrayingHands className="welcome-icon" />
+              <FaPrayingHands className="welcome-icon" aria-hidden="true" />
               <h1 className="welcome-title">Namaste!</h1>
               <p className="welcome-subtitle">
                 Welcome to my personal portfolio. I'm glad you're here.

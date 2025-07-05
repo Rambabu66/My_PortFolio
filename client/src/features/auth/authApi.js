@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const API = axios.create({
   // baseURL: "http://localhost:5004/api/auth"
-  baseURL: "https://my-portfolio-5pkf.onrender.com/api/auth"
+  baseURL: "https://my-portfolio-8m08.onrender.com/api/auth"
 
 });
 
