@@ -1,0 +1,33 @@
+/*
+  Targets the <li> element (page-item) that gets the 'custom-disabled-prev-next' class
+  when Pagination.Prev or Pagination.Next is disabled.
+  The 'disabled' class is automatically added by React Bootstrap to the <li>.
+*/
+.custom-disabled-prev-next.disabled {
+  cursor: not-allowed; /* Show not-allowed cursor when hovering the <li> item */
+}
+
+/*
+  Targets the <a> element (page-link) inside the disabled <li>.
+  This will style the chevron symbol (‹ or ›) red.
+*/
+.custom-disabled-prev-next.disabled .page-link {
+  color: red !important; /* Make the symbol/text red. Use !important to override Bootstrap. */
+  /*
+    Bootstrap's default .page-item.disabled .page-link already includes `pointer-events: none;`
+    which prevents clicks and changes the cursor over the link itself.
+    The `cursor: not-allowed;` on the parent `li` (page-item) provides a clearer visual cue.
+  */
+}
+
+/* Increase the size of all pagination items */
+.pagination .page-item .page-link {
+  font-size: 1.1rem; /* Adjust as needed, e.g., '1.25rem', '16px' */
+  padding: 0.5rem 0.9rem; /* Adjust padding: top/bottom left/right */
+}
+
+/* Optional: If you want to specifically target the Prev/Next chevrons for different sizing */
+/*
+.pagination .page-item .page-link[aria-label="Previous"],
+.pagination .page-item .page-link[aria-label="Next"] {
+  font-size: 1.3rem; /* Example: Make chevrons slightly larger */

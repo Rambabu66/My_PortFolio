@@ -1,0 +1,9 @@
+/* client/src/components/adminpages/Sidebar/Sidebar.css */
+.sidebar-static {
+  background-color: #f0f0f0;
+  padding: 20px;
+  /* Ensure sidebar occupies full viewport height and scrolls its content */
+ min-height: 92.20vh;
+ 
+  
+}
